@@ -3,7 +3,7 @@ This is a program written on 23-11-2019 to wish anyone you want pythonically :)
 I did this since it's my birthday today and just for fun
 
 ## How to run this code?
-Just clone this repo and cd into it and run the command like 'python birthday_wish.py Jack Doe'
+Just clone this repo and cd into it and run the command like `python birthday_wish.py Jack Doe`
 This will produce the output 
 ```
     *****************************************     
