@@ -12,7 +12,7 @@ import os
 #     # write to stdout
 #     im.save("zop.jpg")
 
-pstrImg = Image.open('birthday1_orig.jpg')
+pstrImg = Image.open('birthday_template.jpg')
 # print(pstrImg.size)
 draw = ImageDraw.Draw(pstrImg)
 fontsFolder = "C:\Windows\Fonts"
