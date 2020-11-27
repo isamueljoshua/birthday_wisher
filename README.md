@@ -35,3 +35,9 @@ Currently the program writes the from and to names into the template file and sa
 Note: This is a downloded template, all design ideas and designs belong to the designer, my python code has just written the names Jack Doe and Jack on top of it
 
 Enjoy !!!
+
+## Future of this Project
+### Phase 1
+I am planning to add more templates, so that the user will have more options to choose from.
+### Phase 2
+I am considering creating a UI with this idea in mind, so that it would be useful for a much bigger community
