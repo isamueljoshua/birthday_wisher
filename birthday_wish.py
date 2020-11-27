@@ -1,11 +1,17 @@
+"""
+This is the main code file.
+
+Most of the code is written using python3 and the pillow library
+
+One of the key resource for this code to come up is:
+https://automatetheboringstuff.com/chapter17/
+"""
+
 import sys
 from PIL import Image, ImageDraw, ImageFont
 import os
 
 try:
-    # arg_ls = [arg for arg in sys.argv]
-    # to_name = " ".join(arg_ls[1:])
-    # to_name_file = "_".join(arg_ls[1:])
 
     from_name = input("Please enter your name: ")
     to_name = input("Happy birthday to?: ")
@@ -29,6 +35,11 @@ print("\t\t****************************************************")
 pstrImg = Image.open('birthday_template.jpg')
 # print(pstrImg.size)
 draw = ImageDraw.Draw(pstrImg)
+
+# The below config is for windows, for other operating systems
+# On Windows: C:\Windows\Fonts
+# On OS X: /Library/Fonts and /System/Library/Fonts
+# On Linux: /usr/share/fonts/truetype 
 fontsFolder = "C:\Windows\Fonts"
 arialFont = ImageFont.truetype(os.path.join(fontsFolder, 'CURLZ___.ttf'), 100)
 draw.text((210, 547), to_name.upper(), fill=(255,61,177,128), font=arialFont)
