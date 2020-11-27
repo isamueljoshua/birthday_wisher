@@ -3,7 +3,7 @@ This is a program written on 23-11-2019 to wish anyone you want pythonically :)
 I did this since it's my birthday today.
 
 ## How to run this code?
-Just clone this repo and cd into it and run the command like `python birthday_wish.py`.
+Just clone this repo and cd into it and in your command prompt or terminal, first run `pip install pillow` then run the command `python birthday_wish.py`.
 
 This will ask for input 
 ```
@@ -32,6 +32,6 @@ Currently the program writes the from and to names into the template file and sa
 
 ![Output image](Jack_Doe.png "Jack Doe output")
 
-Note: This is a downloded template, all design ideas and designs belong to the designer, my python code has just written the names Jack Doe and Sam on top of it
+Note: This is a downloded template, all design ideas and designs belong to the designer, my python code has just written the names Jack Doe and Jack on top of it
 
 Enjoy !!!
